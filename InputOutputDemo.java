@@ -26,8 +26,6 @@ public class InputOutputDemo {
         System.out.print("Enter a word or sentence: ");
         String stringInput = scanner.nextLine();
 
-        // Output the results
-        System.out.println("\n--- Output ---");
         System.out.printf("Your integer: %d%n", integerInput);
         System.out.printf("Your decimal number: %.2f%n", decimalInput);
         System.out.printf("Your string: %s%n", stringInput);
